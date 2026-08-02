@@ -4,7 +4,10 @@ server:
 spring:
   application:
     name: discoveryservice
-
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+      name: ecommerce
 #자기 자신은 등록되지 않도록 처리.
 eureka:
   client:
