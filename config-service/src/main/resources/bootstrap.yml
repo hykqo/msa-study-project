@@ -1,6 +1,7 @@
 encrypt:
 #  key: abcdefghijklmnopqrstuvwxyz1234567890
   key-store:
-    location: file:///Users/yeom-enong/IdeaProjects/msa_keystore/apiEncryptionKey.jks  #암호화키 경로 지정.
+#    location: file:///Users/yeom-enong/IdeaProjects/msa_keystore/apiEncryptionKey.jks  #암호화키 경로 지정.
+    location: file:/apiEncryptionKey.jks  #컨테이너 내부에 있는 암호화키 경로 지정.
     password: 921013
     alias : apiEncryptionKey

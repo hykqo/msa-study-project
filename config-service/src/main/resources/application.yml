@@ -21,6 +21,8 @@ spring:
         git: # git? default??.
 #          uri: file:///Users/yeom-enong/IdeaProjects/localRepo #window??? file://C:\\Users\\yeom-enong\\IdeaProjects\\localRepo
           uri: https://github.com/hykqo/study-spring-cloud-config.git
+#          username: [ID] 퍼블릭 레파지토리이기 때문에 사용 X
+#          password: [PASSWORD]
           default-label : main
 
 management:
