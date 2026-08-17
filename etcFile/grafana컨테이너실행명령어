@@ -1,0 +1,4 @@
+docker run -d --name grafana \
+ -p 3000:3000 \
+ --network ecommerce-network \
+  grafana/grafana
